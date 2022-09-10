@@ -3,6 +3,23 @@
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
+  @media(max-width:375px){
+    h1{ text-align: center;
+    font-size: 112px;}
+    .images-index{ display: none;}
+    .primary-link{ padding: 10px 5px;}
+    p{ margin-bottom: 5px;}
+    .primary-link{ display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 250px;
+    max-width: 100%;}
+    div .col-md-6 p{ text-align: center;}
+    .image-box{display: none;}
+    .text-start{text-align: center!important;}
+   .second-row { padding: 0px!important;}
+}
+
   
   body {
     margin: 60px auto;
